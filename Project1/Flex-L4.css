@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 980px;
+    background-color: #666666;
+ 
+
+}
+.blog,.logo,.menu,.phone,.slideshow,.column,.content,.footer{
+    background-color: #aaaaaa; 
+    margin: 3px;
+}
+.div {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3px;
+    align-content: center;
+}
+
+.blog {
+    
+height: 60px;
+width: 100%;
+
+
+}
+.logo {
+    
+    height: 100px;
+    width: 200px;  
+    
+}
+
+.phone {
+    
+    width: 200px;
+    height: 40px;
+    align-self: flex-end;
+   
+
+}
+.menu {
+    height: 40px;
+    width: 300px;
+   align-self: flex-end;
+   margin-right: 260px;
+        
+}
+
+.left {
+    display: flex;
+    flex-flow: column;
+    position: relative;
+    
+    
+}
+
+.slideshow {
+    height: 300px;
+    width: 400px;
+    
+
+    
+}
+.column {
+    height: 600px;
+    width: 200px;
+    position: relative;
+    bottom: 50px;
+    margin: 3px;
+   }
+
+.content {
+height: 400px;
+width: 400px;
+}
+
+.footer {
+
+height: 300px;
+width: 100%;
+}
+
+@media only screen and (max-width: 980){
+div {
+    flex: 50%;
+}
+}

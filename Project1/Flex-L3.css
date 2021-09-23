@@ -1,0 +1,96 @@
+body {
+    
+    text-align: center;
+    
+    
+}
+.container {
+position: relative;
+display: flex;
+flex-wrap: wrap;
+background-color: #666666;
+max-width: 980px;
+text-align: center;
+align-items: center;
+justify-content: center; 
+color: white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.logo {
+    position: relative;
+    display: flex;
+    background-color: #aaaaaa;
+    height: 75px;
+    width: 100px;
+    margin: 3px;
+    flex-grow: 1;
+    align-content: center;
+    justify-content: center; 
+    }
+
+.phone {
+position: relative;
+display: flex;
+flex-direction: column;
+background-color: #aaaaaa;
+height: 25px;
+width: 75px;
+margin: 3px;
+text-align: center;
+flex-grow: 1;
+align-content: center;
+justify-content: center; 
+padding: 2px;
+
+}
+
+.menu {
+    background-color:#aaaaaa;
+    display: flex;
+    position: relative;
+    
+    height: 25px;
+    width: 150px;  
+    margin: 3px;
+    flex-grow: 1;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center; 
+    
+}
+.image {
+    
+    background-color:#aaaaaa;
+    height: 130px;
+    width: 400px;
+    flex-grow: 1;
+    
+}
+
+.content {
+    background-color:#aaaaaa;
+    height: 400px;
+    width: 600px;
+    flex-grow: 1;
+    margin: 3px;
+
+}
+.sidebar {
+    background-color:#aaaaaa;
+    height: 400px;
+    width: 200px;
+    flex-grow: 1;
+    margin: 3px;
+
+}
+
+.footer {
+    background-color: #aaaaaa; 
+    width: 100%;
+    height: 150px;
+    margin: 3px;
+  
+}
+

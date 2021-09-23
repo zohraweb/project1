@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 3px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 980px;
+    background-color: #666666;
+
+}
+
+.div {
+    background-color: #aaaaaa;
+    align-content: center;
+    justify-content: center; 
+    
+}
+
+.logo {
+    background-color:#aaaaaa;
+    height: 50px;
+    width: 100px;  
+    margin: 3px;
+    
+}
+.phone {
+    background-color: #aaaaaa;
+    height: 50px;
+    width: 200px;
+    margin: 3px;
+    
+    
+    
+}
+
+.menu {
+    background-color: #aaaaaa;
+    height: 50px;
+    width: 100%;
+    margin: 3px;
+    flex-grow: 1;
+
+}
+.image {
+background-color: #aaaaaa;
+height: 300px;
+width: 100%;
+
+margin: 3px;
+}
+
+.box {
+    background-color: #aaaaaa;
+    height: 250px;
+    width: 100px;
+    margin: 3px;
+    flex-grow: 1;
+}
+.sidebar {
+    background-color: #aaaaaa;
+    height: 400px;
+    width: 200px;
+    margin: 3px;
+    flex-grow: 1;
+
+}
+
+.content {
+background-color: #aaaaaa;
+height: 400px;
+width: 200px;
+margin: 3px;
+flex-grow: 1;
+}
+
+.footer {
+background-color: #aaaaaa;
+height: 200px;
+width: 100%;
+margin: 3px;
+}
+
+

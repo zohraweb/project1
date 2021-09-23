@@ -1,0 +1,51 @@
+body {
+    margin: 3px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    max-width: 980px;
+    background-color: #666666;
+
+}
+
+.wrapper {
+
+    display: inline-flex;
+}
+
+.box {
+    margin: 1px;
+    background-color:#aaaaaa;
+    height: 130px;
+    width: 322px;  
+    border: 1px solid gray;
+   
+}
+.box1 {
+    background-color: #aaaaaa;
+    height: 130px;
+    width: 485px;
+    border: 2px solid gray;
+    
+}
+.box2 {
+background-color: #aaaaaa;
+height: 130px;
+width: 100px;
+}
+
+.item {
+    border: 1px solid white;
+    background-color: #aaaaaa; 
+    width: 100%;
+    height: 130px;
+}
+
+
+
+
